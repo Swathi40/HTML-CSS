@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Text formuating Tags</title>
+</head>
+<body>
+    <b>Family</b>
+    <p>Family</p>
+    <i>Family</i>
+    <strong>Family</strong> <br>
+    <em>Family</em> <br>
+    <sup>Family</sup> <br>
+    <sub>Family</sub> <br>
+    <del>Family</del> <br>
+    <ins>Family</ins> <br>
+    <u>Family</u> <br>
+    <small>Family</small>
+    
+</body>
+</html>
