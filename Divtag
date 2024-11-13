@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Div tag Example</title>
+</head>
+<body>
+    <div style="background-color: aqua; height: 100px;"></div>
+    <div style="background-color: blue; height: 200px;"></div>
+    <div style="background-color: blueviolet; height: 300px;"></div>
+</body>
+</html>
