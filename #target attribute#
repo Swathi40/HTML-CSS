@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Availble courses in Jspiders<a target="_blank" href="Corses.html">Click here</a></h1>
+    
+</body>
+</html>
+
+#using anchor tag#
+#we create another page#
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>Availble courses in Jspiders</h1>
+    <h1>Python</h1>
+    <h1>Java</h1>
+    <h1>Mern</h1>
+    
+</body>
+</html>
+
