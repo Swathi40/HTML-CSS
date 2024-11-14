@@ -1,0 +1,66 @@
+#Inline css#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inline Css</title>
+</head>
+<body>
+    <h1 style="background-color: blueviolet ; color: white; border: 5px solid red;">InlineCss</h1>
+    <h1  style="background-color: rgb(192, 226, 43) ; color: white; border: 5px solid rgb(162, 0, 255);">InlineCss</h1>    
+</body>
+</html>
+
+#Internal Css#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Internal Css</title>
+    <style>
+        h1
+        {
+            background-color: chartreuse;
+            color: azure;
+            border: 10px dotted red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Internal CSS</h1>
+    <h1>Internal CSS</h1>
+    <h1>Internal CSS</h1>
+    
+</body>
+</html>
+
+
+#External css#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>External Css</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>External Css</h1>
+    <h1>External Css</h1>
+    <h1>External Css</h1>
+    <h2>External CSS</h2>
+    <h2>External CSS</h2>
+    <h2>External CSS</h2>
+    
+</body>
+</html>
+
+we create another page#Style.css#
+h1{
+    background-color: aquamarine;
+    color: white;
+}
+h2
+{
+    background-color: brown;
+    color: white;
+    
+}
