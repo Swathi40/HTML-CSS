@@ -1,0 +1,32 @@
+#Tagname selector#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tagname selector</title>
+    <style>
+        h1
+        {
+            background-color: aqua;
+        }
+        h2
+        {
+            background-color: blue;
+        }
+        h3
+        {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tagname selector</h1>
+    <h2>Tagname selector</h2>
+    <h3>Tagname selector</h3>
+    <h4>Tagname selector</h4>
+    <h5>Tagname selector</h5>
+    
+    
+</body>
+</html>
+
+
