@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Group Selector</title>
+    <style>
+        h1,h2,h3{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Group Selector</h1>
+    <h2>Group Selector</h2>
+    <h3>Group selector</h3>
+     
+</body>
+</html>
