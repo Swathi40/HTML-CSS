@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attribute selector</title>
+    <style>
+        h1[align=":left"]
+        {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="right">Attribute Selector</h1>
+    <h2 align="center">Attribute Selector</h2>
+    <h3 align="left">Attribute Selector</h2>
+
+    
+</body>
+</html>
