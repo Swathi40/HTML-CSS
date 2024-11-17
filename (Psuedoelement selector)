@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+   <style>
+    h1::selection
+    {
+        background-color: green;
+        color: white;
+    }
+    p::selection
+    {
+        
+        background-color: green;
+        color: white;
+    }
+    
+   </style>
+</head>
+<body>
+    <h1>Psuedoelement selector</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nihil quaerat ea voluptate harum ex totam facilis labore saepe quas. Veritatis eos suscipit atque ea a explicabo? Ducimus, quaerat aperiam?
+    Consequatur placeat assumenda exercitationem atque blanditiis voluptates hic sequi. Aliquid, vero architecto. Numquam ducimus vel, unde voluptate sed rerum optio commodi, ab ipsum porro aperiam accusamus veritatis omnis nam adipisci.</p>
+    <h1>Psuedoelement selector</h1>
+    <h1>Psuedoelement selector</h1>
+    
+</body>
+</html>
