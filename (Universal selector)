@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Universal Selector</title>
+    <style>
+       h1 *{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Universal selector</h1>
+    <h1>Universal selector</h1>
+    <h2>Universal selector</h2>
+    
+</body>
+</html>
