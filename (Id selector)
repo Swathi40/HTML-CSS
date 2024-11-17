@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Id selector</title>
+  <style>
+    #one
+    {
+        background-color: aqua;
+        color: white;
+    }
+    #two
+    {
+        background-color: yellow;
+        color: white;
+    }
+  </style>
+</head>
+<body>
+    <h1 id="one">Id Selector</h1>
+    <h1 id="one">Id Selector</h1>
+    <h1 id="one">Id Selector</h1>  
+    <h2 id="two">Id Selector</h2>
+    <h2 id="two">Id Selector</h2>
+    <h2 id="two">Id Selector</h2>   
+</body>
+</html>
