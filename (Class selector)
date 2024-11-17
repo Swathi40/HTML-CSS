@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class selector</title>
+    <style>
+        .abc{
+            background-color: green;
+            color: white;
+        }
+        .mno{
+            background-color: greenyellow;
+            color: white;
+        }
+    
+        .one{
+            background-color:red;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="abc">Class selector</h1>
+    <h1 class="abc">Class selector</h1>
+    <h2 class="mno">Class selector</h2>
+    <h2 class="mno">Class selector</h2>
+    <h3 class="one">Class selector</h3>
+    
+</body>
+</html>
