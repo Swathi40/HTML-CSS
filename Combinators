@@ -1,0 +1,70 @@
+#Child selector#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>child selector</title>
+    <style>
+        .Header>h1>span
+        {
+            background-color: orange;
+        }
+        .main>h1>span
+       {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="Header">
+       <h1>Heading one <span> Spantag</span></h1>
+       <h1>Heading two</h1>
+       <h1>Heading three</h1>
+    </div>
+    <hr>
+     <div class="main">
+         <h1>Heading one</h1>
+         <h1> Heading two</h1>
+     </div>
+     <hr>
+    <div class="Footer">
+        <h1> Heading one</h1>
+        <h1>Heading two</h1>
+    </div> 
+    <hr>
+</body>
+</html>
+
+<!--By using child selector by applicing the styles 
+        for only for direct childs(for only for direct childs(1st gen1st generation elements)--> 
+<!-- Child selector by using greater than operator('>')-->
+
+
+#Decendent Selector#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Decendent selector</title>
+    <style>
+        .Header h1{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <div class="Header">
+        <h1>one</h1>
+        <h2>two</h2>
+    </div>
+    <hr>
+    <div class="main">
+        <h1>ONE</h1>
+        <h2>TWO</h2>
+    </div>
+    
+</body>
+</html>
+<!-- Decendent selector is represented by using space('__')-->
+ <!--by using decendent selector we can apply css styles for both direct and indirect childs-->
