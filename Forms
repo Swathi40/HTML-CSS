@@ -1,0 +1,102 @@
+#Student details form#
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Student Info</title>
+    <style>
+        button{
+            margin-left: 100px;
+        }
+        legend{
+           background-color: black;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding: 10px;
+            color: white;
+            box-shadow: 0px 0px 2px white;
+        }
+        fieldset{
+            background-color: aqua;
+            width: fit-content;
+        }
+        body{
+            background-image: linear-gradient(red,orange,green);
+            width: 700px;
+            padding: 100px;
+            
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Student Information</legend>
+            <table>
+                <tr>
+                    <td><label for="">Student Name</label></td>
+                   <td><input type="text" placeholder="Enter the Student name"></td>
+                    <td><label for="">FatherName</label></td>
+                    <td><input type="text" placeholder="Enter the Father name"></td>
+                    <td><label for="">Mothername</label></td>
+                    <td><input type="text" placeholder="Enter the mother name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td><input type="Date"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="Mail" placeholder="Enter the Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="radio">Male</td>
+                    <td><input type="radio" name="radio">Female</td>
+                    <td><input type="radio" name="radio">Others</td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile No</label></td>
+                    <td><input type="number" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Languages Known</label></td>
+                    <td><input type="Checkbox">Telugu</td>
+                    <td><input type="Checkbox">Kannada</td>
+                    <td><input type="Checkbox">Odisha</td>
+                    <td><input type="Checkbox">Tamil</td>
+                    <td><input type="Checkbox">Malyalam</td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td><input type="Textarea"> </td>
+
+                </tr>
+                <tr>
+                    <td><label for="">State</label></td>
+                    <td><select name="" id=""> </td>
+                     <option value="Select....."></option>
+                     <option value="Andhra Pradesh"></option>
+                     <option value="Karanataka"></option>
+                     <option value="Odisha"></option>
+                     <option value="Tamilnadu"></option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label for="">Resume</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="6"><button>Submit</button></td>
+                    <td colspan="6"><button>Resert</button></td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
